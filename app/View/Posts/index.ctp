@@ -1,5 +1,7 @@
 <div class="posts index">
-	<h2><?php echo __('Posts');?></h2>
+	<h2><?php 
+	pr($this->Session->read());
+	echo __('Posts');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('id');?></th>

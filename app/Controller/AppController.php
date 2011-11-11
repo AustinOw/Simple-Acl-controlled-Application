@@ -28,6 +28,8 @@ class AppController extends Controller {
         $this->Auth->logoutRedirect = array('controller' => 'users', 'action' => 'login');
         $this->Auth->loginRedirect = array('controller' => 'posts', 'action' => 'add');
 
-        $this->Auth->actionPath = 'controllers';
+        $this->Auth->actionPath = 'controllers'; // Ważne określenie ścieżki działania dla ACL
+
+        $this->Auth->allow('display');
     }
 }
