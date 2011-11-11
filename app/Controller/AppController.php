@@ -8,11 +8,7 @@
 class AppController extends Controller {
     public $components = array(
         'Acl',
-        'Auth' => array(
-            'authorize' => array(
-                'Actions' => array('actionPath' => 'controllers')
-            )
-        ),
+        'Auth',
         'Session'
     );
     public $helpers = array('Html', 'Form', 'Session');
