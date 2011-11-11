@@ -1,6 +1,6 @@
 <div class="posts index">
 	<h2><?php 
-	pr($this->Session->read());
+	//pr($this->Session->read());
 	echo __('Posts');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
