@@ -70,14 +70,14 @@ class DATABASE_CONFIG {
 		'encoding' => 'utf8',
 	);
 
-	public $test = array(
+	public $linuxpl = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'login' => 'pawlo1_acl-tutor',
+		'password' => 'test123',
+		'database' => 'pawlo1_acl-tutor',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 }
