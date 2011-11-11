@@ -59,7 +59,7 @@
  */
 class DATABASE_CONFIG {
 
-	public $default = array(
+	/*public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
@@ -68,9 +68,9 @@ class DATABASE_CONFIG {
 		'database' => 'cakephp_acl',
 		'prefix' => '',
 		'encoding' => 'utf8',
-	);
+	);*/
 
-	public $linuxpl = array(
+	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
